@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(233, 235, 238);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px gray;
+}
+.right-page{
+    background-color: #0e484a;
+    display: flex;
+    flex-direction: column;
+    padding: .8rem 10rem 5rem 8rem;
+    color: #b2f8f8;
+}
+
+.heading{
+    display: flex;
+    gap: .1rem;
+    color: #9cbfc6;
+}
+.heading span{
+    color: #e7f8f8;
+}
+.right-head{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 13.8rem;
+    color: #b2f8f8;
+}
+.right-text{
+    font-size: .8rem;
+    line-height: 1.2rem;
+    color: #75a0a7;
+    margin-bottom: 1rem;
+}
+.custom-shape-divider-bottom-1704525087 {
+    position: absolute;
+    bottom: 13.5%;
+    left: 26%;
+    width: 300px;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    opacity: .2;
+}
+
+.custom-shape-divider-bottom-1704525087 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+}
+
+.custom-shape-divider-bottom-1704525087 .shape-fill {
+    fill: #9B9B9B;
+}
+
+
+/* right page starts here */
+.left-page{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: .5rem 5rem 8rem;
+}
+.btn-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+    background-color: #fefdfe;
+    padding: .1rem .4rem;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: .8rem;
+}
+.btn-1 a{
+    color: #0e4c4d;
+    text-decoration: none;
+}
+.btn-2{
+    border: .1px solid gray;
+    border-radius: 20px;
+    background-color: #fefdfe;
+    padding: .4rem;
+    font-size: .8rem;
+}
+.btn-2 a{
+    text-decoration: none;
+    color: #0e4c4d;
+}
+.section-head p{
+    font-size: .8rem;
+    color: gray;
+}
+.form-space{
+    margin-top: 1rem;
+}
+.form-space label{
+    font-size: .8rem;
+    font-weight: bolder;
+}
+.form-space input{
+    padding: .4rem;
+    border: none;
+    background-color:#f3f5f4;
+    border-radius: 2px;
+}
+.form-space input::placeholder{
+    font-size: .7rem;
+    color: #797979;
+}
+.same{
+    display: flex;
+    flex-direction: column;
+    padding: .5rem 0;
+    gap: .4rem;
+}
+.different{
+    display: flex;
+    gap: .4rem;
+    color: #797979;
+    font-size: .8rem;
+}
+.different a{
+    color: gray;
+}
+.btn{
+    padding: .8rem 5rem;
+    margin-top: 3rem;
+    background: linear-gradient(to right, #128c90, #0a6369);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: rgb(233, 235, 238);
+    font-size: .6rem;
+    font-weight: bolder;
+}
